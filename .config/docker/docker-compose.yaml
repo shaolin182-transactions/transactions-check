@@ -1,0 +1,8 @@
+name: transactions-check-dev-env
+services:
+  db:
+    image: postgres:18
+    ports:
+    - 5432:5432
+    env_file: "app.env"
+     
