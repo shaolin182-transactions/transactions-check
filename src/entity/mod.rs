@@ -5,5 +5,5 @@ pub mod transaction;
 
 pub use bank_account::Entity as BankAccount;
 pub use category::Entity as Category;
-pub use fillitransaction_detailng::Entity as TrDetail;
+pub use transaction_detail::Entity as TrDetail;
 pub use transaction::Entity as Transaction;
